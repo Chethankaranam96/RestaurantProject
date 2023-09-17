@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+                  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/AdobeStock_100927429.jpg");
+                  background-size: cover;
+		}
+
+		header {
+                  font-size: 24px;
+			font-weight: bold;
+                  background-color:  #3d0b20;
+                  color: #fff;
+                  padding: 20px;
+                  text-align: center;
+		}
+
+		.logo {
+			margin: 0;
+			font-size: 32px;
+			text-transform: uppercase;
+		}
+
+		.nav-links {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		.nav-links li {
+			margin-left: 20px;
+		}
+
+		.nav-links li a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.nav-links li a:hover {
+			color: #f2f2f2;
+		}
+
+		main {
+			padding-top: 100px;
+		}
+
+		section {
+			margin: 50px 0;
+			padding: 0 20px;
+			text-align: center;
+		}
+
+		h2 {
+                  background-color: #678fde;
+                  color: #fff;
+                  padding: 20px;
+                  text-align: center;
+		}
+
+		.menu-container {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			flex-wrap: wrap;
+			margin: 0 -20px;
+                  padding :10px;
+		}
+
+		.menu-category {
+			width: calc(33.33% - 40px);
+			margin: 0 15px 30px;
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			text-align: left;
+                  
+		}
+
+		.menu-category h3 {
+			margin-top: 0;
+                  color: #D8B68F;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.menu-category ul {
+                  color: #875d4e;
+			margin: 0;
+			padding: 10px;
+			list-style-type: none;
+		}
+
+		.menu-category li {
+                  color: #EAE5DD;
+			margin-bottom: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: capitalize;
+                  display: inline-block;
+                  padding : 10px;
+
+                  
+		}
+            .menu-category ul li a {
+ 			text-decoration: none;
+  			color: #fff;
+  			padding: 3px 20px;
+  			border: 2px solid #fff;
+  			transition: 0.6s ease;
+		}
+
+
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			text-align: left;
+		}
+
+		label {
+			display: block;
+			font-size: 20px;
+			font-weight: bold;
+                  border: 1px;
+			margin-bottom: 10px;
+		}
+          
+            .tab {
+                 display: inline-block;
+                 margin-left: 40px;
+            }
+            p {
+                 color:#f9f235;
+              }
+
+		input,
+		textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			box-sizing : border-box;
+			margin-bottom: 20px;
+		}
+
+		input[type="submit"] {
+			background-color: #333;
+			color : #048CB2;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 10px 20px;
+			border-radius: 5px;
+			}
+           footer {
+                  background-color:  #3d0b20;
+                  color: #fff;
+                  padding: 20px;
+                  text-align: center;
+           }
+            a:hover {
+                  transform: translateY(5px);
+                  box-shadow: 0 5px 5px rgba(0,0,0,1);
+                  background-color: #996515;
+                  border-radius: 1px;
+          
+          }
+
+</style>
+<header align="center"> MENU </header>
+</head>
+<body>
+        <br>  <section>
+		
+      	<br><br><div class="menu-container">
+				<div class="menu-category">
+					<h3>APPETIZERS</h3>
+					<ul>
+                                    <p>FoodItems &emsp; &emsp; <span class="tab"></span>  Costs</p>
+						<li>Bruschetta &emsp; &ensp; <span class="tab"></span>       --350</li>
+						<li>MozzarellaSticks &emsp; &ensp; --250</li>
+						<li>SpinachDip &emsp; &ensp; <span class="tab"></span>      --275</li><br>
+                                    <li><a href="/webpages/bruschetta.html">CLICK TO VIEW</a></li>
+
+					</ul>
+				</div>
+				<div class="menu-category">
+					<h3>Main Courses</h3>
+					<ul>
+                                    <p>FoodItems &emsp; &emsp; <span class="tab"></span>   Costs</p>
+						<li>Spaghetti Carbonara &ensp;  --500</li>
+						<li>Chicken Alfredo    <span class="tab"></span>   --300</li>
+						<li>Steak Frites   &emsp; &ensp;   <span class="tab"></span>   --200</li><br>
+                                    <li><a href="/webpages/maincourses.html">CLICK TO VIEW</a></li>
+					</ul>
+					</div>
+				<div class="menu-category">
+					<h3>Desserts</h3>
+					<ul>
+                                    <p>FoodItems &emsp; &emsp; <span class="tab"></span>                         Costs</p>
+						<li>Tiramisu  &emsp; &emsp; <span class="tab"></span>           --110</li>
+						<li>Chocolate Cake   &emsp; &ensp;    --120</li>
+						<li>Cheesecake   &emsp; <span class="tab"></span>        --100</li><br>
+                                    <li><a href="/webpages/desserts.html">CLICK TO VIEW</a></li>
+					</ul>
+				</div>
+                        <div class="menu-category">
+					<h3>Mocktails</h3>
+					<ul>
+                                    <p>FoodItems &emsp; &emsp; <span class="tab"></span>             Costs</p>
+						<li>Virgin mary &emsp; &ensp; <span class="tab"></span>         --90</li>
+						<li>Margarita Mocktail &ensp; &ensp;   --90</li>
+						<li>Baby bellini  &ensp; &ensp;   <span class="tab"></span>    --100</li><br>
+                                    <li><a href="/webpages/mocktails.html">CLICK TO VIEW</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	<br><br><br><br><footer>
+		<p>© 2023 BOYZ Restaurant</p>
+	</footer>
+
+</body>
+</html>
