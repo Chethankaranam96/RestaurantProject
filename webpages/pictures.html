@@ -3,28 +3,81 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
- <title>Pictures</title>
- <style>
-      
+    <title>Pictures</title>
+    <style>
 		body {
 			font-family: Arial, sans-serif;
 			background-color: #f2f2f2;
 			color: #333;
 			margin: 0;
 			padding: 0;
-                  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/AdobeStock_100927429.jpg");
-                  background-size: cover;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/AdobeStock_100927429.jpg");
+            background-size: cover;
 		}
-       
-        
-</style>
+        header {
+            background-color: #3d0b20;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        h2 {
+            color:#fff;
+            text-align:center;
+            padding:auto;
+            font-size: 50px;
+        }
+        .gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+    </style>
 </head>
 <body>
-<center><img src="/images/wp4289147.jpg" style="width:500px;height:300px;"></center><br><br>
-<img src="/images/American_chocolate_cake6-s.jpg" style="width:350px;height:350px;">
-<img src="/images/tacos1.jpg" style="width:350px;height:350px;">
-<img src="/images/OIP.jpg" style="width:350px;height:350px;">
-<img src="/images/OIPW.jpg" style="width:350px;height:350px;">
+    <header>
+        <h1>BOYZ Restaurant</h1>
+    </header>
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="/images/American_chocolate_cake6-s.jpg">
+            <img src="/images/tacos1.jpg">
+            <img src="/images/OIP.jpg">
+            <img src="/images/OIPW.jpg">
+            <img src="/images/bellini.jpg">
+            <img src="/images/cheesecake.jpg">
+            <img src="/images/margarita.jpg">
+            <img src="/images/MozzarellaSticks.jpg">
+            <img src="/images/steak.jpg">
+            <img src="/images/tiramisu.jpg">
+            <img src="/images/virginmary.jpg">
+            <img src="/images/bruschetta.jpg">
+            
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">© Copyright 2023 by BOYZ All rights reversed.</p>
+    </footer>
 
 </body>
 </html>
