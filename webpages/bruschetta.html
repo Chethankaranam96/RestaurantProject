@@ -1,15 +1,62 @@
 <html>
 <head>
-      <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-      <title>Bruschetta</title>
+    <title>Appetizers</title>
+    <style>
+        figcaption{
+            font-weight: bold;
+            font-size: 25px;
+            color:bisque;
+        }
+        .figure img {
+            width: 100%;
+            max-width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+			margin: 0;
+			padding: 0;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/AdobeStock_100927429.jpg");
+            background-size: cover;
+		}
+        footer{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: beige;
+            font-weight: bolder;
+            font-size: 50px;
+            padding: auto;
+        }
+    </style>
 </head>
 <body>
-<h1> Bruschetta </h1>
-<center><img src="/images/bruschetta.jpg" style="width:500px;height:300px;"></center>
-<h1> Mozzarella Sticks </h1>
-<center><img src="/images/MozzarellaSticks.jpg" style="width:500px;height:300px;"></center>
-<h1> Spinach Dip </h1>
-<center><img src="/images/OIP.jpg" style="width:500px;height:300px;"></center>
+<main>
+    <header>
+        <h1>Appetizers</h1>
+    </header>
+    <figure class="figure">
+        <figcaption>Bruschetta</figcaption>
+        <img src="/images/bruschetta.jpg">
+    </figure>
+    <figure class="figure">
+        <figcaption>Mozzarella Sticks</figcaption>
+        <img src="/images/MozzarellaSticks.jpg">
+    </figure>
+    <figure class="figure">
+        <figcaption>Spinach Dip</figcaption>
+        <img src="/images/OIP.jpg">
+    </figure>
+</main>
+<footer>
+    <p class="copyright">© Copyright 2023 by BOYZ All rights reversed.</p>
+</footer>
 </body>
 </html>
