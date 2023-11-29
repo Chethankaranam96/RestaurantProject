@@ -1,15 +1,62 @@
 <html>
 <head>
-      <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-      <title>Main Courses</title>
+    <title>Main Courses</title>
+    <style>
+        figcaption{
+            font-weight: bold;
+            font-size: 25px;
+            color:bisque;
+        }
+        .figure img {
+            width: 100%;
+            max-width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+			margin: 0;
+			padding: 0;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/AdobeStock_100927429.jpg");
+            background-size: cover;
+		}
+        footer{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: beige;
+            font-weight: bolder;
+            font-size: 50px;
+            padding: auto;
+        }
+    </style>
 </head>
 <body>
-<h1>Spaghetti Carbonara </h1>
-<center><img src="/images/OIPW.jpg" style="width:500px;height:300px;"></center>
-<h1> Chicken Alfredo  </h1>
-<center><img src="/images/chicken.jpg" style="width:500px;height:300px;"></center>
-<h1> Steak Frites </h1>
-<center><img src="/images/steak.jpg" style="width:500px;height:300px;"></center>
+<main>
+    <header>
+        <h1>Main Courses</h1>
+    </header>
+    <figure class="figure">
+        <figcaption>Spaghetti Carbonara</figcaption>
+        <img src="/images/OIPW.jpg">
+    </figure>
+    <figure class="figure">
+        <figcaption>Chicken Alfredo</figcaption>
+        <img src="/images/chicken.jpg">
+    </figure>
+    <figure class="figure">
+        <figcaption>Steak Frites</figcaption>
+        <img src="/images/steak.jpg">
+    </figure>
+</main>
+<footer>
+    <p class="copyright">© Copyright 2023 by BOYZ All rights reversed.</p>
+</footer>
 </body>
 </html>
